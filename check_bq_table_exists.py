@@ -23,15 +23,7 @@ def table_exists(table_list):
         except NotFound:
             print("Couldn't find table {}".format(table_id))
             pass
-        
-        
-
-   #table=bqclient.get_table(table_info)
-   #if not isinstance(table,):
-
-
-
-
+    
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Check if BQ table exists")
     parser.add_argument('csvfile', type=argparse.FileType('r'), help='Input csv file with table data')
