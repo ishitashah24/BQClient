@@ -15,12 +15,12 @@
   `BQ - Dev`.  
 	
 ## Example
-	table_id=test_project.test_dataset.test_table is the table id, an argument passed to the table_exists()
+   `table_id=test_project.test_dataset.test_table` is the table id, an argument passed to the table_exists()
 	
-	get_table() fetches the information of the table if it exists otherwise returns a message- Table Not Found
+   `get_table()` fetches the information of the table if it exists otherwise returns a message- "Table Not Found"
  
 ## File Layout
- [check_bq_table_exists.py](BQClient/bq_view_authz.py) is a BigQuery client wrapper and command-line executable
+ [check_bq_table_exists.py](BQClient/check_bq_table_exists.py) is a BigQuery client wrapper and command-line executable
 
 
 ## Pre-requisites
