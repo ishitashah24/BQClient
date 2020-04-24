@@ -15,7 +15,7 @@
   `BQ - Dev`.  
 	
 ## Example
-   `table_id=test_project.test_dataset.test_table` is the table id, an argument passed to the table_exists()
+   `table_id=test_project.test_dataset.test_table` is the table id, an argument passed to the `table_exists()`
 	
    `get_table()` fetches the information of the table if it exists otherwise returns a message- "Table Not Found"
  
